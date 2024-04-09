@@ -8,7 +8,7 @@ from scipy import interpolate
 import os
 from sklearn.linear_model import TheilSenRegressor
 from shapely.geometry import Polygon, Point
-import gdal
+from osgeo import gdal
 import itertools
 from scipy.spatial import distance
 from pyproj import Transformer
